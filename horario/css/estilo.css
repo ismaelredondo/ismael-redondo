@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma; 
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+div.principal{
+    background-color: rgb(252, 252, 252);
+    margin: 10px auto;
+    width: 80%;
+    border: 1px solid rgba(99, 98, 98, 0.719);
+
+}
+div.imagen{
+    border: 1px solid rgb(80, 28, 28);
+    margin-bottom: 10px;
+}
+div.imagen img{
+    max-width: 100%;
+    display: block;
+}
+table{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+tr.titulo td{ 
+    border-top: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+
+}
+td{
+    border-bottom: 1px solid rgb(2, 2, 2);
+    padding: 10px;
+    
+}
+td:hover{
+    background-color: rgb(12, 247, 255)
+}
+table.PROFESORES{
+    text-align: left;
+    border-top: 3px;
+}
+tr.PROFESORADO{
+    background-color: rgb(99, 51, 231);
+    color: white;
+}
+table.PROFESORES :hover{
+
+    background-color: white;
+}
